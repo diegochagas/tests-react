@@ -30,7 +30,11 @@
     ],
     "moduleNameMapper": {
       "^~/(.*)": "<rootDir>/src/$1"
-    }
+    },
+    "collectCoverageFrom": [
+      "!src/index.js"
+    ],
+    "coverageDirectory": "coverage"
   },
   "browserslist": {
     "production": [
